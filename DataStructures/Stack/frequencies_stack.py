@@ -1,6 +1,4 @@
-"""Module with the implementation of the frequencies stack"""
-
-from collections import Counter, defaultdict
+from collections import defaultdict
 
 
 class FreqStack:
@@ -17,7 +15,7 @@ class FreqStack:
     """
 
     def __init__(self):
-        self.frequency = Counter()
+        self.frequency = defaultdict(int)
         self.stack = defaultdict(list)
         self.max_freq = 0
 
