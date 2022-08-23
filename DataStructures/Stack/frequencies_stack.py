@@ -1,3 +1,5 @@
+"""Module with the implementation of the frequencies stack"""
+
 from collections import Counter, defaultdict
 
 
