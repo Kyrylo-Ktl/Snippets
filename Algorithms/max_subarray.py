@@ -2,6 +2,10 @@ from sys import maxsize
 
 
 def max_subarray(nums: list) -> int:
+    """
+    Time:   O(n)
+    Memory: O(1)
+    """
     max_sum, curr_sum = -maxsize, 0
 
     for num in nums:
